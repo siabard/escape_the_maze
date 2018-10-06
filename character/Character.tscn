@@ -83,7 +83,7 @@ tracks/0/keys = {
 "values": [ 15, 16, 17, 18, 19 ]
 }
 
-[node name="Character" type="Area2D" index="0"]
+[node name="Character" type="Area2D"]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -93,7 +93,7 @@ angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
 script = ExtResource( 1 )
-speed = null
+speed = 3
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 

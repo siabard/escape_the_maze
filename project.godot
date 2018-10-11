@@ -11,7 +11,12 @@ config_version=3
 [application]
 
 config/name="escape_the_maze"
+run/main_scene="res://ui/StartScreen.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://Global.gd"
 
 [display]
 
